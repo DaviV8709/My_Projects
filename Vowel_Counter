@@ -1,7 +1,0 @@
-print('\033[1;35mCounting \033[1;34mVowels\033[m')
-words = ('Punk', 'Music', 'Happiness', 'Sing', 'Shirt', 'Love', 'Felling', 'Study', 'Video', 'Unlock')
-for word in words:
-    print(f'\nIn the \033[1;31mword \033[1;32m{word.upper()}\033[m there is', end = ' ')
-    for letter in word.lower():
-        if letter in 'aeiou':
-            print(f'\033[1;34m[ {letter} ]\033[m', end =' ')
