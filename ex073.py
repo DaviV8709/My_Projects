@@ -1,7 +1,7 @@
 print('\033[1;35m| CHALLENGE |\033[m \033[32mBrazilian \033[34mSoccer \033[33mTeams\033[m')
-teams = ('Palmeiras', 'São Paulo', 'Fluminense', 'Bahia', 'Athetico-PR', 'Bragatino', 'Chapecoense', 'Mirassol', 'Coritiba', 'Flamengo',
-         'Botafogo', 'Corinthians', 'Grêmio', 'EC Vitória', 'Atlético- MG', 'Remo', 'Vasco da Gama', 'Santos', 'Internacional', 'Cruzeiro')
-print(f'{"\033[31mBRASILEIRÃO \033[1;36m2026\033[m":^70}')
+teams = ('Flamengo', 'Palmeiras', 'Cruzeiro', 'Mirassol', 'Fluminense', 'Botafogo', 'Bahia', 'São Paulo', 'Grêmio', 'Bragantino',
+         'Atlético- MG', 'Santos', 'Corinthians', 'Vasco da Gama', 'EC Vitória', 'Internacional', 'Ceará SC', 'Fortaleza', 'Juventude', 'Sport Recife')
+print(f'{"\033[31mBRASILEIRÃO \033[1;36m2025\033[m":^70}')
 print('\033[1;35mWhat kind of info:\033[m\n'
       '\033[1;31m[ A ]\033[m- \033[31mFirst five\033[m\n'
       '\033[1;32m[ B ]\033[m- \033[32mLast four\033[m\n'
