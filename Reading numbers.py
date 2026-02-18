@@ -48,11 +48,3 @@ print('if ct == 1:\n'
         '   bigger = n\n'
         '   if n < smaller:\n'
         '   smaller = n')
-
-
-
-
-
-
-
-
