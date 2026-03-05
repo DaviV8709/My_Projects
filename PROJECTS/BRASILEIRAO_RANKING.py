@@ -1,7 +1,7 @@
 print('\033[1;35m| CHALLENGE |\033[m \033[32mBrazilian \033[34mSoccer \033[33mTeams\033[m')
 teams = ('Flamengo', 'Palmeiras', 'Cruzeiro', 'Mirassol', 'Fluminense', 'Botafogo', 'Bahia', 'São Paulo', 'Grêmio', 'Bragantino',
          'Atlético- MG', 'Santos', 'Corinthians', 'Vasco da Gama', 'EC Vitória', 'Internacional', 'Ceará SC', 'Fortaleza', 'Juventude', 'Sport Recife')
-print(f'{"\033[31mBRASILEIRÃO \033[1;36m2025\033[m":^70}')
+print(f'{"\033[31mBRASILEIRÃO 2025 \033[1;36m2025\033[m":^70}')
 print('\033[1;35mWhat kind of info:\033[m\n'
       '\033[1;31m[ A ]\033[m- \033[31mFirst five\033[m\n'
       '\033[1;32m[ B ]\033[m- \033[32mLast four\033[m\n'
@@ -42,4 +42,5 @@ while True:
     else:
         print('\033[1;31mEnter a valid option\033[m')
 print('\033[32m[ Thanks for using! ]\033[m')
+
 
