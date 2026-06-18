@@ -1,4 +1,4 @@
-# CODES TO DEVELOP THE ORGANIZE INFO
+# CODES TO ORGANIZE INFO
 from SHOPPING_LIST_REFACTORED.functions.show import *
 from SHOPPING_LIST_REFACTORED.functions.archive import *
 from time import sleep
@@ -26,7 +26,10 @@ def options():
     for i, n in enumerate(x):
         print(f'[ {i + 1} ] {n}')
 
+
 # FUNCTIONS ABOUT PRODUCTS
+
+
 
 def products_list(words = False):
     letter = ''
@@ -103,6 +106,7 @@ def remove_product_file(info):
 def add_product_file(info):
     write_file(f'[{info[1].lower()}]', f'{info[0]:18}{info[1]}{info[2]:>15}\n[{info[1].lower()}]')
 
+
 def product_main_file(info):
     write_file('[product]', f'{info[0].upper()} [product]')
 
@@ -117,6 +121,8 @@ def product_file(product, add = False, remove = False):
 
 
 # FUNCTIONS ABOUT CATEGORIES
+
+
 
 def categories_list(words = False):
     letter = ''
@@ -180,7 +186,6 @@ def remove_category_file(info):
                 break
     write_file(f'{'=' * 43}\n[{info.lower()}]\n', '')
     checking_products()
-
 
 
 def add_category_file(info):

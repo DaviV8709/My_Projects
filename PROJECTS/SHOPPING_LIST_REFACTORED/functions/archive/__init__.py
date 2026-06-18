@@ -13,7 +13,6 @@ def create_file():
         title('Showing it bellow', '\033[1;36m', 18, True)
 
 
-
 def access_file(data = False): #ACCESS FILE/READ FILE
     try:
         archive = 'list.txt'
